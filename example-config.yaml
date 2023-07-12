@@ -1,0 +1,14 @@
+cron:
+  days: mon-fri
+  start: 8:00
+  stop: 17:00
+devices:
+  switch01:
+   - GigabitEthernet1/0/13
+  switch02:
+   - GigabitEthernet1/0/13
+   - GigabitEthernet1/0/14
+  switch03:
+   - GigabitEthernet1/0/4
+   - GigabitEthernet1/0/8
+   - GigabitEthernet1/0/12
