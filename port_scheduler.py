@@ -139,6 +139,7 @@ def getTemplateID(dnac: api.DNACenterAPI) -> str:
     for template in project[0]["templates"]:
         if template["name"] == DNAC_TEMPLATE_NAME:
             template_id = template["id"]
+            break
         else:
             template_id = None
     log.info(f"Using template ID: {template_id}")
